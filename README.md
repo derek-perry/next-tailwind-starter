@@ -35,8 +35,9 @@ npm install
 # or
 yarn install
 ```
-3. Set up local environment variables for sitemap:
-(**Note:** This example uses the [Next-Sitemap npm package](https://npmjs.com/package/next-sitemap "Visit the Next-Sitemap npm package page at npmjs.com/package/next-sitemap") to generate a sitemap of created pages at post-build time. You must add "SITE_URL" and "NEXT_PUBLIC_SITE_URL" and "NEXT_IMAGE_ALLOWED_DOMAINS" environment key pairs/variables containing the live site url without a trailing slash!)
+3. Set up local environment variables:
+You must add "SITE_URL" and "NEXT_PUBLIC_SITE_URL" and "NEXT_IMAGE_ALLOWED_DOMAINS" environment key pairs/variables containing the live site url without a trailing slash!
+(**Note:** This example uses the [Next-Sitemap npm package](https://npmjs.com/package/next-sitemap "Visit the Next-Sitemap npm package page at npmjs.com/package/next-sitemap") to generate a sitemap of created pages at post-build time.)
 ```bash
 cat "./env.local" > "./env.local"
 echo SITE_URL="http://localhost:3000" > "./env.local"
@@ -68,6 +69,18 @@ npm run build
 # or
 yarn build
 ```
+
+---
+
+### Deployment Tips
+- Connect Deploy service to Public Repository of the website files
+- If using GitHub Pages, add Repository Secret Keys (instead of Environment Variables) to the repository that matches local environment variables.
+	- Deploy services OTHER than GitHub: just connect repo, set to nextjs, add env vars, and deploy
+		- Add Environment Variables using that deployment service's own UI or include an env file.
+- Build Settings
+	- Set build command to "npm run build"
+	- Set build/publish location to /.next
+	- Set build environment to be next.js compatible
 
 ---
 
