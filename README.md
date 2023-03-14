@@ -62,6 +62,13 @@ CTRL+C
 Y
 ```
 
+7. Run a build to check for errors:
+```bash
+npm run build
+# or
+yarn build
+```
+
 ---
 
 ### Source Note
