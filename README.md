@@ -1,19 +1,19 @@
 # Next+Tailwind Starter
-### A simple starter example set up using Next.js and Tailwind CSS.
+### A simple starter example website set up using Next.js and Tailwind CSS.
 _[Website; NEXT.js; Tailwind CSS]_
 
 ---
 
 ### Description 
-This repository holds the files for a simple starter example website that uses [Next.js](https://nextjs.org "Visit the official website of Next.js at NextJS.org") and [Tailwind CSS](https://tailwindcss.com "Visit the official website of Tailwind CSS at TailwindCSS.com"). It contains placeholder pages for the homepage, sitemap, 404, and 500.
+This repository holds the files for a simple starter example website that uses [Next.js](https://nextjs.org "Visit the official website of Next.js at NextJS.org") and [Tailwind CSS](https://tailwindcss.com "Visit the official website of Tailwind CSS at TailwindCSS.com"). It contains readymade pages for the homepage, 404 error, and 500 error. This example uses the [Next-Sitemap npm package](https://npmjs.com/package/next-sitemap "Visit the Next-Sitemap npm package page at npmjs.com/package/next-sitemap") to generate a sitemap of created pages at post-build time.
 
 ---
 
 ### Links
-- **Live Example (Netlify Deploy) Link:** [NextTailwindStarter.netlify.app](https://nexttailwindstarter.netlify.app "Visit the live, Netlify example website for the Next+Tailwind Starter, at NextTailwindStarter.netlify.app")
-- **Live Example (GitHub Pages Deploy) Link:** [derek-perry.github.io/next-tailwind-starter](https://derek-perry.github.io/next-tailwind-starter "Visit the live, Netlify example website for the Next+Tailwind Starter, at derek-perry.github.io/next-tailwind-starter")
-- **This GitHub Link:** [github.com/derek-perry/next-tailwind-starter](https://github.com/derek-perry/next-tailwind-starter "Visit the GitHub repository for this Next+Tailwind Starter at github.com/derek-perry/next-tailwind-starter")
-- **Creator Website Link:** [dp.design](https://dp.design "Visit the website for Derek Perry, the creator of this Next+Tailwind Starter, at dp.design")
+- **Main Live Example using Netlify Deploy:** [NextTailwindStarter.netlify.app](https://nexttailwindstarter.netlify.app "Visit the live, Netlify example website for the Next+Tailwind Starter, at NextTailwindStarter.netlify.app")
+- **Test Live Example using GitHub Pages Deploy :** [derek-perry.github.io/next-tailwind-starter](https://derek-perry.github.io/next-tailwind-starter "Visit the live, Netlify example website for the Next+Tailwind Starter, at derek-perry.github.io/next-tailwind-starter")
+- **Next+Tailwind Starter GitHub Repository:** [github.com/derek-perry/next-tailwind-starter](https://github.com/derek-perry/next-tailwind-starter "Visit the GitHub repository for this Next+Tailwind Starter at github.com/derek-perry/next-tailwind-starter")
+- **Creator Website:** [dp.design](https://dp.design "Visit the website for Derek Perry, the creator of this Next+Tailwind Starter, at dp.design")
 
 ---
 
@@ -39,11 +39,12 @@ npm install
 # or
 yarn install
 ```
-3. Set up local environment variable for sitemap:
-(**Note:** This example uses the [Next-Sitemap npm package](https://npmjs.com/package/next-sitemap "Visit the Next-Sitemap npm package page at npmjs.com/package/next-sitemap") to generate a sitemap at post-build time. You must add a "SITE_URL" environment key containing the live site url without a trailing slash!)
+3. Set up local environment variables for sitemap:
+(**Note:** This example uses the [Next-Sitemap npm package](https://npmjs.com/package/next-sitemap "Visit the Next-Sitemap npm package page at npmjs.com/package/next-sitemap") to generate a sitemap of created pages at post-build time. You must add "SITE_URL" and "NEXT_PUBLIC_SITE_URL" environment key pairs/variables containing the live site url without a trailing slash!)
 ```bash
 cat "./env.local" > "./env.local"
 echo SITE_URL="http://localhost:3000" > "./env.local"
+echo NEXT_PUBLIC_SITE_URL="http://localhost:3000" > "./env.local"
 ```
 (**Don't Want to Use Environment Variables?** Set the hard-coded url in the next-sitemap.config.js file next to siteUrl.)
 
