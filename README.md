@@ -17,11 +17,7 @@ This repository holds the files for a simple starter example website that uses [
 
 ---
 
-### Copyright Information
-**Copyright 2023 Derek Perry dp.design**
-
-**Some rights reserved.**
-
+### License Information
 **[Next+Tailwind Starter](https://github.com/derek-perry/next-tailwind-starter "Visit the GitHub repository for this Next+Tailwind Starter at github.com/derek-perry/next-tailwind-starter") is licensed under the MIT License**
 _(View the accompanying LICENSE file for more information on the "MIT License" license.)_
 If you use the [Next+Tailwind Starter](https://github.com/derek-perry/next-tailwind-starter "Visit the GitHub repository for this Next+Tailwind Starter at github.com/derek-perry/next-tailwind-starter"), please retain the licenses of the files below which were used in the development of [Next+Tailwind Starter](https://github.com/derek-perry/next-tailwind-starter "Visit the GitHub repository for this Next+Tailwind Starter at github.com/derek-perry/next-tailwind-starter").
