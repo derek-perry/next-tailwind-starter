@@ -36,11 +36,12 @@ npm install
 yarn install
 ```
 3. Set up local environment variables for sitemap:
-(**Note:** This example uses the [Next-Sitemap npm package](https://npmjs.com/package/next-sitemap "Visit the Next-Sitemap npm package page at npmjs.com/package/next-sitemap") to generate a sitemap of created pages at post-build time. You must add "SITE_URL" and "NEXT_PUBLIC_SITE_URL" environment key pairs/variables containing the live site url without a trailing slash!)
+(**Note:** This example uses the [Next-Sitemap npm package](https://npmjs.com/package/next-sitemap "Visit the Next-Sitemap npm package page at npmjs.com/package/next-sitemap") to generate a sitemap of created pages at post-build time. You must add "SITE_URL" and "NEXT_PUBLIC_SITE_URL" and "NEXT_IMAGE_ALLOWED_DOMAINS" environment key pairs/variables containing the live site url without a trailing slash!)
 ```bash
 cat "./env.local" > "./env.local"
 echo SITE_URL="http://localhost:3000" > "./env.local"
 echo NEXT_PUBLIC_SITE_URL="http://localhost:3000" > "./env.local"
+echo NEXT_IMAGE_ALLOWED_DOMAINS="http://localhost:3000" > "./env.local"
 ```
 (**Don't Want to Use Environment Variables?** Set the hard-coded url in the next-sitemap.config.js file next to siteUrl.)
 
