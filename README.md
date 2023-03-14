@@ -57,15 +57,20 @@ Y
 
 ---
 
-### Official Next.js + Tailwind CSS Example Description
-
-This example shows how to use [Tailwind CSS](https://tailwindcss.com/) [(v3.2)](https://tailwindcss.com/blog/tailwindcss-v3-2) with Next.js. It follows the steps outlined in the official [Tailwind docs](https://tailwindcss.com/docs/guides/nextjs).
+### Source Note
+(**Note:** This starter example was based off an official Next.js example found here: [Next.js + Tailwind CSS Example](https://github.com/vercel/next.js/tree/deprecated-main/examples/with-tailwindcss "Visit the Official Next.js + Tailwind CSS Example that this Starter was Based On at github.com/vercel/next.js/tree/deprecated-main/examples/with-tailwindcss"))
 
 ---
 
-### Official Next.js + Tailwind CSS Example Instructions
+### Official [Next.js + Tailwind CSS Example](https://github.com/vercel/next.js/tree/deprecated-main/examples/with-tailwindcss "Visit the Official Next.js + Tailwind CSS Example that this Starter was Based On at github.com/vercel/next.js/tree/deprecated-main/examples/with-tailwindcss") Description
 
-1. Execute [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app) with [npm](https://docs.npmjs.com/cli/init), [Yarn](https://yarnpkg.com/lang/en/docs/cli/create/), or [pnpm](https://pnpm.io) to bootstrap the example:
+This example shows how to use [Tailwind CSS](https://tailwindcss.com "Visit the official website of Tailwind CSS at TailwindCSS.com") [(v3.2)](https://tailwindcss.com/blog/tailwindcss-v3-2) with Next.js. It follows the steps outlined in the official [Tailwind docs](https://tailwindcss.com/docs/guides/nextjs).
+
+---
+
+### Official [Next.js + Tailwind CSS Example](https://github.com/vercel/next.js/tree/deprecated-main/examples/with-tailwindcss "Visit the Official Next.js + Tailwind CSS Example that this Starter was Based On at github.com/vercel/next.js/tree/deprecated-main/examples/with-tailwindcss") Instructions
+
+1. Execute [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app) with [npm](https://docs.npmjs.com/cli/init), [Yarn](https://yarnpkg.com/lang/en/docs/cli/create), or [pnpm](https://pnpm.io) to bootstrap the example:
 
 ```bash
 npx create-next-app --example with-tailwindcss with-tailwindcss-app
