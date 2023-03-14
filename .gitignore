@@ -100,6 +100,10 @@ yarn-debug.log*
 yarn-error.log*
 .pnpm-debug.log*
 
+# Locally Built Sitemap Files
+/public/robots.txt
+/public/sitemap.xml
+
 # Local Env
 .env*.local
 

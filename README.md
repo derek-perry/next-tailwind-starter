@@ -39,8 +39,15 @@ npm install
 # or
 yarn install
 ```
+3. Set up local environment variable for sitemap:
+(**Note:** This example uses the [Next-Sitemap npm package](https://npmjs.com/package/next-sitemap "Visit the Next-Sitemap npm package page at npmjs.com/package/next-sitemap") to generate a sitemap at post-build time. You must add a "SITE_URL" environment key containing the live site url without a trailing slash!)
+```bash
+cat "./env.local" > "./env.local"
+echo SITE_URL="http://localhost:3000" > "./env.local"
+```
+(**Don't Want to Use Environment Variables?** Set the hard-coded url in the next-sitemap.config.js file next to siteUrl.)
 
-3. Run the local development server:
+4. Run the local development server:
 
 ```bash
 npm run dev
@@ -48,9 +55,9 @@ npm run dev
 yarn dev
 ```
 
-4. Open [http://localhost:3000](http://localhost:3000 "Visit localhost:3000 in a local browser to view the running development server") in your browser to see the result.
+5. Open [http://localhost:3000](http://localhost:3000 "Visit localhost:3000 in a local browser to view the running development server") in your browser to see the result.
 
-5. Stop the server:
+6. Stop the server:
 ```bash
 CTRL+C
 # then
