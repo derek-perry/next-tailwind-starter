@@ -1,0 +1,107 @@
+### Git Ignore ###
+
+# Ignore .zip files, but not in the public folder
+*.zip
+*.7z
+*.dmg
+*.gz
+*.iso
+*.jar
+*.rar
+*.tar
+!public/*.zip
+!public/*.7z
+!public/*.dmg
+!public/*.gz
+!public/*.iso
+!public/*.jar
+!public/*.rar
+!public/*.tar
+
+# Ignore Random OS files
+*.lock
+*.out
+*.swp
+*.pem
+.ds_store
+.DS_Store
+.AppleDouble
+.LSOverride
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Compiled Object files
+*.slo
+*.lo
+*.o
+*.obj
+obj/
+
+# Precompiled Headers
+*.gch
+*.pch
+
+# Compiled Dynamic libraries
+*.so
+*.dylib
+*.dll
+
+# Fortran module files
+*.mod
+
+# Compiled Static libraries
+*.lai
+*.la
+*.a
+*.lib
+
+# Executables
+*.exe
+*.out
+*.app
+*.ipa
+
+# Project files which may be generated
+*.xcodeproj
+*.xcworkspace
+*.sln
+*.suo
+*.opensdf
+*.sdf
+*.VC.db
+*.VC.opendb
+
+# Visual Studio user specific files
+.vs
+.vs/
+.vs/*
+.vs/**
+
+# Dependencies
+/node_modules
+/.pnp
+.pnp.js
+
+# Testing
+/coverage
+
+# NEXT.js
+/.next/
+/out/
+
+# Production
+/build
+
+# Debug
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+
+# Local Env
+.env*.local
+
+# Typescript
+*.tsbuildinfo
