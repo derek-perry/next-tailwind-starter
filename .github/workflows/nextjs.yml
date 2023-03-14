@@ -1,5 +1,5 @@
 # Workflow for building and deploying a Next.js site to GitHub Pages
-name: Deploy Next.js site to Pages
+name: Deploy Next+Tailwind Starter to GitHub Pages
 
 on:
   # Runs on pushes targeting the default branch
@@ -44,6 +44,10 @@ jobs:
             echo "Unable to determine packager manager"
             exit 1
           fi
+      env:
+        SITE_URL: ${{ secrets.SITE_URL }}
+        NEXT_PUBLIC_SITE_URL: ${{ secrets.NEXT_PUBLIC_SITE_URL }}
+        NEXT_IMAGE_ALLOWED_DOMAINS: ${{ secrets.NEXT_IMAGE_ALLOWED_DOMAINS }}
       - name: Setup Node
         uses: actions/setup-node@v3
         with:
