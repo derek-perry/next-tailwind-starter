@@ -10,8 +10,10 @@ This repository holds the files for a simple starter example website that uses [
 ---
 
 ### Links
-- **Creator Website Link:** [dp.design](https://dp.design "Visit the website for Derek Perry, the creator of this Next+Tailwind Starter, at dp.design")
+- **Live Example (Netlify Deploy) Link:** [NextTailwindStarter.netlify.app](https://nexttailwindstarter.netlify.app "Visit the live, Netlify example website for the Next+Tailwind Starter, at NextTailwindStarter.netlify.app")
+- **Live Example (GitHub Pages Deploy) Link:** [derek-perry.github.io/next-tailwind-starter](https://derek-perry.github.io/next-tailwind-starter "Visit the live, Netlify example website for the Next+Tailwind Starter, at derek-perry.github.io/next-tailwind-starter")
 - **This GitHub Link:** [github.com/derek-perry/next-tailwind-starter](https://github.com/derek-perry/next-tailwind-starter "Visit the GitHub repository for this Next+Tailwind Starter at github.com/derek-perry/next-tailwind-starter")
+- **Creator Website Link:** [dp.design](https://dp.design "Visit the website for Derek Perry, the creator of this Next+Tailwind Starter, at dp.design")
 
 ---
 
