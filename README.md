@@ -10,17 +10,17 @@ This repository holds the files for a simple starter example website that uses [
 ---
 
 ### Links
-- **Main Live Example using Netlify Deploy:** [NextTailwindStarter.netlify.app](https://nexttailwindstarter.netlify.app "Visit the live, Netlify example website for the Next+Tailwind Starter, at NextTailwindStarter.netlify.app")
-- **Test Live Example using GitHub Pages Deploy :** [derek-perry.github.io/next-tailwind-starter](https://derek-perry.github.io/next-tailwind-starter "Visit the live, Netlify example website for the Next+Tailwind Starter, at derek-perry.github.io/next-tailwind-starter")
+- **Live Example using Netlify Deploy:** [NextTailwindStarter.netlify.app](https://nexttailwindstarter.netlify.app "Visit the live, Netlify example website for the Next+Tailwind Starter, at NextTailwindStarter.netlify.app")
+- **Live Example using GitHub Pages Deploy :** [derek-perry.github.io/next-tailwind-starter](https://derek-perry.github.io/next-tailwind-starter "Visit the live, Netlify example website for the Next+Tailwind Starter, at derek-perry.github.io/next-tailwind-starter")
 - **Next+Tailwind Starter GitHub Repository:** [github.com/derek-perry/next-tailwind-starter](https://github.com/derek-perry/next-tailwind-starter "Visit the GitHub repository for this Next+Tailwind Starter at github.com/derek-perry/next-tailwind-starter")
 - **Creator Website:** [dp.design](https://dp.design "Visit the website for Derek Perry, the creator of this Next+Tailwind Starter, at dp.design")
 
 ---
 
 ### License Information
-**[Next+Tailwind Starter](https://github.com/derek-perry/next-tailwind-starter "Visit the GitHub repository for this Next+Tailwind Starter at github.com/derek-perry/next-tailwind-starter") is licensed under the MIT License**
+**[Next+Tailwind Starter](https://github.com/derek-perry/next-tailwind-starter "Visit the GitHub repository for this Next+Tailwind Starter at github.com/derek-perry/next-tailwind-starter") and the source [Next.js + Tailwind CSS Example](https://github.com/vercel/next.js/tree/deprecated-main/examples/with-tailwindcss "Visit the Official Next.js + Tailwind CSS Example that this Starter was Based On at github.com/vercel/next.js/tree/deprecated-main/examples/with-tailwindcss") are licensed under the MIT License**
 _(View the accompanying LICENSE file for more information on the "MIT License" license.)_
-If you use the [Next+Tailwind Starter](https://github.com/derek-perry/next-tailwind-starter "Visit the GitHub repository for this Next+Tailwind Starter at github.com/derek-perry/next-tailwind-starter"), please retain the licenses of the files below which were used in the development of [Next+Tailwind Starter](https://github.com/derek-perry/next-tailwind-starter "Visit the GitHub repository for this Next+Tailwind Starter at github.com/derek-perry/next-tailwind-starter").
+If you use [Next+Tailwind Starter](https://github.com/derek-perry/next-tailwind-starter "Visit the GitHub repository for this Next+Tailwind Starter at github.com/derek-perry/next-tailwind-starter") or [Next.js + Tailwind CSS Example](https://github.com/vercel/next.js/tree/deprecated-main/examples/with-tailwindcss "Visit the Official Next.js + Tailwind CSS Example that this Starter was Based On at github.com/vercel/next.js/tree/deprecated-main/examples/with-tailwindcss"), please retain the licenses which were used in the development of [Next+Tailwind Starter](https://github.com/derek-perry/next-tailwind-starter "Visit the GitHub repository for this Next+Tailwind Starter at github.com/derek-perry/next-tailwind-starter") and [Next.js + Tailwind CSS Example](https://github.com/vercel/next.js/tree/deprecated-main/examples/with-tailwindcss "Visit the Official Next.js + Tailwind CSS Example that this Starter was Based On at github.com/vercel/next.js/tree/deprecated-main/examples/with-tailwindcss").
 
 ---
 
