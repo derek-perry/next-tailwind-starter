@@ -18,7 +18,7 @@ const error404Page: NextPage = () => {
         </h1>
 
         <p className="mt-3 text-2xl">
-          The server encountered an internal error or misconfiguration and was unable to complete your request.
+          The page/content you are looking for has moved, is no longer available, has been archived, or was not valid.
         </p>
       </main>
 
