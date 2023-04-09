@@ -1,6 +1,8 @@
 import type { NextPage } from 'next'
 import Head from 'next/head'
 import Image from 'next/image'
+import LinkInternal from "../components/Links/LinkInternal"
+import LinkExternal from "../components/Links/LinkExternal"
 
 const error500Page: NextPage = () => {
   return (
@@ -11,10 +13,8 @@ const error500Page: NextPage = () => {
       </Head>
 
       <main className="flex w-full flex-1 flex-col items-center justify-center px-20 text-center">
-        <h1 className="text-6xl font-bold">
-          <a className="text-blue-600 hover:text-green-600" href="/">
-            Error 500: Internal Server Error
-          </a>
+        <h1 className="text-6xl font-bold text-red-600">
+          <LinkInternal href={process.env.NEXT_PUBLIC_SITE_URL + '/' || '/'} title="Return to Index Page">Error 500: Internal Server Error</LinkInternal>
         </h1>
 
         <p className="mt-3 text-2xl">
@@ -26,7 +26,7 @@ const error500Page: NextPage = () => {
         <div
           className="flex items-center justify-center gap-2"
         >
-          <a className="hover:text-blue-600" href="https://github.com/derek-perry/next-tailwind-starter" target="_blank" rel="noopener noreferrer">Next+Tailwind Starter</a> - <a className="hover:text-green-600" href="https://dp.design" target="_blank" rel="noopener noreferrer">Derek Perry</a>{' '}
+          <LinkExternal href="https://github.com/derek-perry/next-tailwind-starter" title="Next+Tailwind Starter" className="no-underline"><p>Next+Tailwind Starter</p></LinkExternal> - <LinkExternal href="https://dp.design" title="Derek Perry" className="no-underline"><p>Derek Perry</p></LinkExternal>{' '}
           <Image src={process.env.NEXT_PUBLIC_SITE_URL + '/dp.svg' || './dp.svg'} alt="Derek Perry dp.design Logo" width={50} height={50} />
         </div>
       </footer>
