@@ -1,5 +1,4 @@
 import Image from 'next/image'
-import LinkInternal from "../Links/LinkInternal"
 import LinkExternal from "../Links/LinkExternal"
 
 const PageFooter = (): JSX.Element => {

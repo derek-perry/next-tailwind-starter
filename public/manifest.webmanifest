@@ -1,0 +1,14 @@
+{
+    "name": "Next/Tailwind Starter",
+    "short_name": "next-tailwind-starter",
+    "description": "Next/Tailwind Starter is a simple starter example website set up using Next.js and Tailwind CSS.",
+    "lang": "en",
+    "categories": ["website", "nextjs", "tailwindcss", "starter"],
+    "theme_color": "#000000",
+    "background_color": "#000000",
+    "scope": "/",
+    "id": "/?source=pwa",
+    "start_url": "/?source=pwa",
+    "display_override": ["window-control-overlay", "minimal-ui"],
+    "display": "standalone"
+}

@@ -1,5 +1,5 @@
 import type { NextPage } from 'next'
-import PageHead from "../components/PageHead"
+import SiteHead from "../components/SiteHead"
 import PageFooter from "../components/PageFooter"
 import LinkInternal from "../components/Links/LinkInternal"
 import LinkExternal from "../components/Links/LinkExternal"
@@ -7,7 +7,7 @@ import LinkExternal from "../components/Links/LinkExternal"
 const homePage: NextPage = () => {
   return (
     <div className="flex min-h-screen flex-col items-center justify-center py-2">
-      <PageHead title="Next/Tailwind Starter" description="Next/Tailwind Starter is a simple starter example website set up using Next.js and Tailwind CSS." url="" />
+      <SiteHead title="Next/Tailwind Starter" description="Next/Tailwind Starter is a simple starter example website set up using Next.js and Tailwind CSS." url="" />
 
       <main className="flex w-full flex-1 flex-col items-center justify-center px-20 text-center">
       <div className="flex w-full flex-row items-center justify-center text-center">
@@ -29,14 +29,14 @@ const homePage: NextPage = () => {
 
       <div className="flex w-full flex-row items-center justify-center text-center">
         <p className="mt-3 pr-2 text-2xl">View </p>
-        <LinkInternal href={process.env.NEXT_PUBLIC_SITE_URL + '/sitemap.xml' || '/sitemap.xml'} title="Sitemap"><p className="mt-3 text-2xl">Sitemap</p></LinkInternal>
+        <LinkInternal href="sitemap.xml" title="Sitemap"><p className="mt-3 text-2xl">Sitemap</p></LinkInternal>
       </div>
 
       <div className="flex w-full flex-row items-center justify-center text-center">
         <p className="mt-3 pr-2 text-2xl">View Error Pages: </p>
-        <LinkInternal href={process.env.NEXT_PUBLIC_SITE_URL + '/404' || '/404'} title="404 Error Page"><p className="mt-3 text-2xl">404</p></LinkInternal>
+        <LinkInternal href="404" title="404 Error Page"><p className="mt-3 text-2xl">404</p></LinkInternal>
         <p className="mt-3 pl-2 pr-2 text-2xl"> and </p>
-        <LinkInternal href={process.env.NEXT_PUBLIC_SITE_URL + '/500' || '/500'} title="500 Error Page"><p className="mt-3 text-2xl">500</p></LinkInternal>
+        <LinkInternal href="500" title="500 Error Page"><p className="mt-3 text-2xl">500</p></LinkInternal>
       </div>
       </main>
 
