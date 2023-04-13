@@ -6,11 +6,11 @@ import LinkExternal from "../components/Links/LinkExternal"
 
 const homePage: NextPage = () => {
   return (
-    <div className="flex min-h-screen flex-col items-center justify-center py-2">
+    <div className="py-2 min-h-screen flex flex-col items-center justify-center text-center">
       <SiteHead title="Next/Tailwind Starter" description="Next/Tailwind Starter is a simple starter example website set up using Next.js and Tailwind CSS." url="" />
 
-      <main className="flex w-full flex-1 flex-col items-center justify-center px-20 text-center">
-      <div className="flex w-full flex-row items-center justify-center text-center">
+      <main className="py-9 px-9 max-w-[1100px] w-full flex flex-1 flex-col items-center justify-center">
+      <div className="flex w-full flex-row flex-wrap items-center justify-center text-center">
         <LinkExternal href="https://nextjs.org" title="Next.js" className="no-underline text-blue-600">
           <h1 className="text-6xl font-bold">Next.js</h1>
         </LinkExternal>
@@ -32,7 +32,7 @@ const homePage: NextPage = () => {
         <LinkInternal href="sitemap.xml" title="Sitemap"><p className="mt-3 text-2xl">Sitemap</p></LinkInternal>
       </div>
 
-      <div className="flex w-full flex-row items-center justify-center text-center">
+      <div className="flex w-full flex-row flex-wrap items-center justify-center text-center">
         <p className="mt-3 pr-2 text-2xl">View Error Pages: </p>
         <LinkInternal href="404" title="404 Error Page"><p className="mt-3 text-2xl">404</p></LinkInternal>
         <p className="mt-3 pl-2 pr-2 text-2xl"> and </p>
