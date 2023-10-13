@@ -75,8 +75,8 @@ yarn build
 ### Deployment Tips
 - Connect Deploy service to Public Repository of the website files
 - If using GitHub Pages, add Repository Secret Keys (instead of Environment Variables) to the repository that matches local environment variables.
-	- Deploy services OTHER than GitHub: just connect repo, set to nextjs, add env vars, and deploy
-		- Add Environment Variables using that deployment service's own UI or include an env file.
+- Deploy services OTHER than GitHub: just connect repo, set to nextjs, add env vars, and deploy
+	- Add Environment Variables using that deployment service's own UI or include an env file.
 - Build Settings
 	- Set build command to "npm run build"
 	- Set build/publish location to /.next
