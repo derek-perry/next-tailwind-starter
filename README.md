@@ -5,13 +5,13 @@ _[Website; NEXT.js; Tailwind CSS]_
 ---
 
 ### Description 
-This repository holds the files for a simple starter example website that uses [Next.js](https://nextjs.org "Visit the official website of Next.js at NextJS.org") and [Tailwind CSS](https://tailwindcss.com "Visit the official website of Tailwind CSS at TailwindCSS.com"). It contains readymade pages for the homepage, 404 error, and 500 error. This example uses the [Next-Sitemap npm package](https://npmjs.com/package/next-sitemap "Visit the Next-Sitemap npm package page at npmjs.com/package/next-sitemap") to generate a sitemap of created pages at post-build time.
+This repository holds the files for a simple starter example website that uses [Next.js](https://nextjs.org "Visit the official website of Next.js at NextJS.org") and [Tailwind CSS](https://tailwindcss.com "Visit the official website of Tailwind CSS at TailwindCSS.com"). It contains readymade pages for the homepage, 404 error, and 500 error. This example uses the [Next-Sitemap npm package](https://npmjs.com/package/next-sitemap "Visit the Next-Sitemap npm package page at npmjs.com/package/next-sitemap") to generate a sitemap of created pages at post-build time. The site is static (SSG or static site generation) using [Next 14.0.1](https://nextjs.org/blog/next-14 "Read the Next.js 14 release blog post") so some [features are unsupported](https://nextjs.org/docs/app/building-your-application/deploying/static-exports "Read about how static exports affect Next functionality").
 
 ---
 
 ### Links
 - **Live Example using Netlify Deploy:** [NextTailwindStarter.netlify.app](https://nexttailwindstarter.netlify.app "Visit the live, Netlify example website for the Next+Tailwind Starter, at NextTailwindStarter.netlify.app")
-- **Live Example using GitHub Pages Deploy :** [derek-perry.github.io/next-tailwind-starter](https://derek-perry.github.io/next-tailwind-starter "Visit the live, Netlify example website for the Next+Tailwind Starter, at derek-perry.github.io/next-tailwind-starter")
+- **Live Example using GitHub Pages Deploy:** [derek-perry.github.io/next-tailwind-starter](https://derek-perry.github.io/next-tailwind-starter "Visit the live, Netlify example website for the Next+Tailwind Starter, at derek-perry.github.io/next-tailwind-starter")
 - **Next+Tailwind Starter GitHub Repository:** [github.com/derek-perry/next-tailwind-starter](https://github.com/derek-perry/next-tailwind-starter "Visit the GitHub repository for this Next+Tailwind Starter at github.com/derek-perry/next-tailwind-starter")
 - **Creator Website:** [derek-perry.com](https://derek-perry.com "Visit the website for Derek Perry, the creator of this Next+Tailwind Starter, at derek-perry.com")
 
@@ -42,7 +42,6 @@ You must add "SITE_URL" and "NEXT_PUBLIC_SITE_URL" and "NEXT_IMAGE_ALLOWED_DOMAI
 cat "./env.local" > "./env.local"
 echo SITE_URL="http://localhost:3000" > "./env.local"
 echo NEXT_PUBLIC_SITE_URL="http://localhost:3000" > "./env.local"
-echo NEXT_IMAGE_ALLOWED_DOMAINS="http://localhost:3000" > "./env.local"
 ```
 (**Don't Want to Use Environment Variables?** Set the hard-coded url in the next-sitemap.config.js file next to siteUrl.)
 
@@ -77,10 +76,10 @@ yarn build
 - If using GitHub Pages, add Repository Secret Keys (instead of Environment Variables) to the repository that matches local environment variables.
 - Deploy services OTHER than GitHub: just connect repo, set to nextjs, add env vars, and deploy
 	- Add Environment Variables using that deployment service's own UI or include an env file.
-- Build Settings
-	- Set build command to "npm run build"
-	- Set build/publish location to /.next
-	- Set build environment to be next.js compatible
+- Deployment Build Settings
+	- Set build command to "next build && next-sitemap"
+	- Set build/publish location to "out"
+	- Set build environment to be next.js compatible (Set Node.js version = 18)
 
 ---
 
