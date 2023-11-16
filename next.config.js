@@ -4,25 +4,6 @@ const nextConfig = {
   output: 'export',
   images: {
     unoptimized: true
-  },
-  async redirects() {
-    return [
-      {
-        "source": "/index",
-        "destination": "/",
-        "permanent": true
-      },
-      {
-        "source": "/home",
-        "destination": "/",
-        "permanent": true
-      },
-      {
-        "source": "/homepage",
-        "destination": "/",
-        "permanent": true
-      }
-    ]
   }
 }
 
