@@ -3,7 +3,7 @@ import SiteHead from "../components/SiteHead"
 import PageFooter from "../components/PageFooter"
 import LinkInternal from "../components/Links/LinkInternal"
 
-const error500Page: NextPage = () => {
+const Error500Page: NextPage = () => {
   return (
     <div className="py-2 min-h-screen flex flex-col items-center justify-center">
       <SiteHead title="Error 500: Internal Server Error" description="The server encountered an internal error or misconfiguration and was unable to complete your request." url="500" />
@@ -25,4 +25,4 @@ const error500Page: NextPage = () => {
   )
 }
 
-export default error500Page
+export default Error500Page

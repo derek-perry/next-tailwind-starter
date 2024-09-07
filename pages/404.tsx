@@ -3,7 +3,7 @@ import SiteHead from "../components/SiteHead"
 import PageFooter from "../components/PageFooter"
 import LinkInternal from "../components/Links/LinkInternal"
 
-const error404Page: NextPage = () => {
+const Error404Page: NextPage = () => {
   return (
     <div className="py-2 min-h-screen flex flex-col items-center justify-center">
       <SiteHead title="Error 404: Content Not Found" description="The page/content you are looking for has moved, is no longer available, has been archived, or was not valid." url="404" />
@@ -25,4 +25,4 @@ const error404Page: NextPage = () => {
   )
 }
 
-export default error404Page
+export default Error404Page

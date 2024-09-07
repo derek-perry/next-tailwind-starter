@@ -4,7 +4,7 @@ import PageFooter from "../components/PageFooter"
 import LinkInternal from "../components/Links/LinkInternal"
 import LinkExternal from "../components/Links/LinkExternal"
 
-const homePage: NextPage = () => {
+const HomePage: NextPage = () => {
   return (
     <div className="py-2 min-h-screen flex flex-col items-center justify-center text-center">
       <SiteHead title="Next/Tailwind Starter" description="Next/Tailwind Starter is a simple starter example website set up using Next.js and Tailwind CSS." url="" />
@@ -45,4 +45,4 @@ const homePage: NextPage = () => {
   )
 }
 
-export default homePage
+export default HomePage
