@@ -1,15 +1,19 @@
 # Next+Tailwind Starter
-### A simple starter example website set up using Next.js and Tailwind CSS.
+**A simple starter example website set up using Next.js and Tailwind CSS.**
+
+_(This repository contains the website for a simple Next+Tailwind Starter.)_
 _[Website; NEXT.js; Tailwind CSS]_
+
+**Made Using:** Next.js, Typescript, Tailwind CSS
 
 ---
 
-### Description 
+## Description 
 This repository holds the files for a simple starter example website that uses [Next.js](https://nextjs.org "Visit the official website of Next.js at NextJS.org") and [Tailwind CSS](https://tailwindcss.com "Visit the official website of Tailwind CSS at TailwindCSS.com"). It contains readymade pages for the homepage, 404 error, and 500 error. This example uses the [Next-Sitemap npm package](https://npmjs.com/package/next-sitemap "Visit the Next-Sitemap npm package page at npmjs.com/package/next-sitemap") to generate a sitemap of created pages at post-build time. The site is static (SSG or static site generation) using [Next 14.0.1](https://nextjs.org/blog/next-14 "Read the Next.js 14 release blog post") so some [features are unsupported](https://nextjs.org/docs/app/building-your-application/deploying/static-exports "Read about how static exports affect Next functionality").
 
 ---
 
-### Links
+## Links
 - **Live Example using Netlify Deploy:** [NextTailwindStarter.netlify.app](https://nexttailwindstarter.netlify.app "Visit the live, Netlify example website for the Next+Tailwind Starter, at NextTailwindStarter.netlify.app")
 - **Live Example using GitHub Pages Deploy:** [derek-perry.github.io/next-tailwind-starter](https://derek-perry.github.io/next-tailwind-starter "Visit the live, Netlify example website for the Next+Tailwind Starter, at derek-perry.github.io/next-tailwind-starter")
 - **Next+Tailwind Starter GitHub Repository:** [github.com/derek-perry/next-tailwind-starter](https://github.com/derek-perry/next-tailwind-starter "Visit the GitHub repository for this Next+Tailwind Starter at github.com/derek-perry/next-tailwind-starter")
@@ -17,14 +21,14 @@ This repository holds the files for a simple starter example website that uses [
 
 ---
 
-### License Information
+## License Information
 **[Next+Tailwind Starter](https://github.com/derek-perry/next-tailwind-starter "Visit the GitHub repository for this Next+Tailwind Starter at github.com/derek-perry/next-tailwind-starter") and the source [Next.js + Tailwind CSS Example](https://github.com/vercel/next.js/tree/deprecated-main/examples/with-tailwindcss "Visit the Official Next.js + Tailwind CSS Example that this Starter was Based On at github.com/vercel/next.js/tree/deprecated-main/examples/with-tailwindcss") are licensed under the MIT License**
 _(View the accompanying LICENSE file for more information on the "MIT License" license.)_
 If you use [Next+Tailwind Starter](https://github.com/derek-perry/next-tailwind-starter "Visit the GitHub repository for this Next+Tailwind Starter at github.com/derek-perry/next-tailwind-starter") or [Next.js + Tailwind CSS Example](https://github.com/vercel/next.js/tree/deprecated-main/examples/with-tailwindcss "Visit the Official Next.js + Tailwind CSS Example that this Starter was Based On at github.com/vercel/next.js/tree/deprecated-main/examples/with-tailwindcss"), please retain the licenses which were used in the development of [Next+Tailwind Starter](https://github.com/derek-perry/next-tailwind-starter "Visit the GitHub repository for this Next+Tailwind Starter at github.com/derek-perry/next-tailwind-starter") and [Next.js + Tailwind CSS Example](https://github.com/vercel/next.js/tree/deprecated-main/examples/with-tailwindcss "Visit the Official Next.js + Tailwind CSS Example that this Starter was Based On at github.com/vercel/next.js/tree/deprecated-main/examples/with-tailwindcss").
 
 ---
 
-### Local Development Instructions
+## Local Development Instructions
 
 1. Clone repository to local folder
 
@@ -83,18 +87,18 @@ yarn build
 
 ---
 
-### Source Note
+## Source Note
 (**Note:** This starter example was based off an official Next.js example found here: [Next.js + Tailwind CSS Example](https://github.com/vercel/next.js/tree/deprecated-main/examples/with-tailwindcss "Visit the Official Next.js + Tailwind CSS Example that this Starter was Based On at github.com/vercel/next.js/tree/deprecated-main/examples/with-tailwindcss"))
 
 ---
 
-### Official [Next.js + Tailwind CSS Example](https://github.com/vercel/next.js/tree/deprecated-main/examples/with-tailwindcss "Visit the Official Next.js + Tailwind CSS Example that this Starter was Based On at github.com/vercel/next.js/tree/deprecated-main/examples/with-tailwindcss") Description
+## Official [Next.js + Tailwind CSS Example](https://github.com/vercel/next.js/tree/deprecated-main/examples/with-tailwindcss "Visit the Official Next.js + Tailwind CSS Example that this Starter was Based On at github.com/vercel/next.js/tree/deprecated-main/examples/with-tailwindcss") Description
 
 This example shows how to use [Tailwind CSS](https://tailwindcss.com "Visit the official website of Tailwind CSS at TailwindCSS.com") [(v3.2)](https://tailwindcss.com/blog/tailwindcss-v3-2) with Next.js. It follows the steps outlined in the official [Tailwind docs](https://tailwindcss.com/docs/guides/nextjs).
 
 ---
 
-### Official [Next.js + Tailwind CSS Example](https://github.com/vercel/next.js/tree/deprecated-main/examples/with-tailwindcss "Visit the Official Next.js + Tailwind CSS Example that this Starter was Based On at github.com/vercel/next.js/tree/deprecated-main/examples/with-tailwindcss") Instructions
+## Official [Next.js + Tailwind CSS Example](https://github.com/vercel/next.js/tree/deprecated-main/examples/with-tailwindcss "Visit the Official Next.js + Tailwind CSS Example that this Starter was Based On at github.com/vercel/next.js/tree/deprecated-main/examples/with-tailwindcss") Instructions
 
 1. Execute [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app) with [npm](https://docs.npmjs.com/cli/init), [Yarn](https://yarnpkg.com/lang/en/docs/cli/create), or [pnpm](https://pnpm.io) to bootstrap the example:
 
